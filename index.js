@@ -4,25 +4,25 @@ const elements=document.querySelector('.elements')
 const itEl=document.querySelectorAll('.it')
 const field=document.querySelector('.field')
 let stri = window.location.href;
-console.log(itEl)
-if(window.innerWidth>=768){
-window.onscroll=()=>{
+// console.log(itEl)
+// if(window.innerWidth>=768){
+// window.onscroll=()=>{
     
-    let k=0
-    let Yscroll=window.scrollY
+//     let k=0
+//     let Yscroll=window.scrollY
 
-    itEl.forEach((element,i)=>{
-        if(i===k){
-            element.style.color="aqua"
-        }else{
-            element.style.color="black"
-        }
+//     itEl.forEach((element,i)=>{
+//         if(i===k){
+//             element.style.color="aqua"
+//         }else{
+//             element.style.color="black"
+//         }
 
-    })
-    console.log( Yscroll)
+//     })
+//     console.log( Yscroll)
     
-}
-}
+// }
+// }
 
 
 const field_arr=["ML Developer","FrontEnd Developer","Programmer","Django Developer"]
