@@ -363,8 +363,9 @@ html {
         padding-left:120px;
     }
     .exp-txt{
-        width: auto;
-        padding:20px;
+        max-width:600px ;
+        padding: 12px;
+        background-color: red;
     }
 }
 /*------------------------- experience end -----------------------------*/
@@ -414,6 +415,11 @@ html {
     .projects{
         height: auto;
         padding-top:100px;
+    }
+    .project-item{
+        max-height:400px ;
+        max-width: 300px;
+
     }
 }
 /*-------------------------- projects end ---------------------------*/
