@@ -324,7 +324,7 @@ html {
 
 /*------------------------- experience start ---------------------------- */
 .experience{
-    height: 100vh;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -332,7 +332,7 @@ html {
 }
 .experience-text{
     display: flex;
-   
+    margin-top: 100px;
     flex-direction: column;
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -347,20 +347,24 @@ html {
 }
 .exp-txt{
     padding: 70px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
 }
 
 @media (max-width:768px) {
+
     .exp-img-txt{
         flex-direction: column-reverse;
     }
     .exp-img img{
        max-width: 300px;
-        padding: 0;
-        padding-left:50px;
+       padding: 14px;
+        padding-left:120px;
     }
     .exp-txt{
-        max-width: 350px;
-        padding:10px;
+        width: auto;
+        padding:20px;
     }
 }
 /*------------------------- experience end -----------------------------*/
