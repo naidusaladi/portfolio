@@ -116,7 +116,7 @@ html {
 }
 .homeleft{
    
-   
+   margin-top: 100px;
    display: flex;
    justify-content: center;
   
@@ -198,7 +198,11 @@ html {
 @media (max-width:768px) {
     .home{
         flex-direction: column;
+        height: auto;
         
+    }
+    .homeleft{
+        margin-top:0px;
     }
     .homeimg{
         
